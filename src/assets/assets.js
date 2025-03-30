@@ -10,6 +10,7 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import menu_9 from './menu_9.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -43,6 +44,14 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import food_33 from './food_33.png'
+import food_34 from './food_34.png'
+import food_35 from './food_35.png'
+import food_36 from './food_36.png'
+import food_37 from './food_37.png'
+import food_38 from './food_38.png'
+import food_39 from './food_39.png'
+import food_40 from './food_40.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -92,7 +101,7 @@ export const menu_list = [
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Desserts",
         menu_image: menu_3
     },
     {
@@ -114,7 +123,12 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
-    }]
+    },
+    {
+        menu_name: "Coffee",
+        menu_image: menu_9
+    }
+]
 
 export const food_list = [
     {
@@ -180,28 +194,28 @@ export const food_list = [
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     }, {
         _id: "12",
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Desserts"
     },
     {
         _id: "13",
@@ -346,5 +360,61 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
+    },{
+        _id: "33",
+        name: "Cappuccino",
+        image: food_33,
+        price: 16,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Coffee"
+    },{
+        _id: "34",
+        name: "Espresso",
+        image: food_34,
+        price: 20,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Coffee"
+    },{
+        _id: "35",
+        name: "Americano",
+        image: food_35,
+        price: 22,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Coffee"
+    },{
+        _id: "36",
+        name: "Mocha",
+        image: food_36,
+        price: 19,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Coffee"
+    },{
+        _id: "37",
+        name: "Ristretto",
+        image: food_37,
+        price: 25,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Coffee"
+    },{
+        _id: "38",
+        name: "Latte",
+        image: food_38,
+        price: 23,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Coffee"
+    }, {
+        _id: "39",
+        name: "Cheesecake",
+        image: food_39,
+        price: 15,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
+    }, {
+        _id: "40",
+        name: "Coffee cake",
+        image: food_40,
+        price: 19,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Cake"
     }
 ]

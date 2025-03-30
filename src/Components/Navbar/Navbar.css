@@ -6,10 +6,10 @@
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 200px;
 }
 
-.navbarMeny {
+.navbarMenu {
   display: flex;
   list-style: none;
   gap: 24px;

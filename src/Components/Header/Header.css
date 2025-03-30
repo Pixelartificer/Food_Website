@@ -4,6 +4,7 @@
   background: url("/public/header_img.png") no-repeat center;
   background-size: contain;
   position: relative;
+  
 }
 
 .headerContent {
@@ -40,3 +41,5 @@
   border-radius: 50px;
   cursor: pointer;
 }
+
+
